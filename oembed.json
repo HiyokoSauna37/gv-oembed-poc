@@ -3,8 +3,8 @@
   "type": "video",
   "provider_name": "gv-poc",
   "provider_url": "https://hiyokosauna37.github.io/gv-oembed-poc/",
-  "title": "GVOE1",
+  "title": "GVOE5",
   "width": 440,
   "height": 240,
-  "html": "<div data-gvmark=\"GVOE1\">GVOE1 inert marker</div>"
+  "html": "<iframe src=\"https://hiyokosauna37.github.io/gv-oembed-poc/embed-child.html\" width=\"440\" height=\"240\" data-gvmark=\"GVOE5\" title=\"GVOE5\"></iframe>"
 }
