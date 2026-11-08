@@ -1,0 +1,12 @@
+{
+  "version": "1.0",
+  "type": "video",
+  "title": "GVS1 numeric-field interpolation test",
+  "provider_name": "YouTube",
+  "provider_url": "https://hiyokosauna37.github.io/gv-oembed-poc/",
+  "author_name": "GVS1",
+  "author_url": "https://hiyokosauna37.github.io/gv-oembed-poc/v7/",
+  "width": "480\"><b>GVW1B</b>",
+  "height": "270; GVS1MARK: 1",
+  "html": "<iframe src=\"https://hiyokosauna37.github.io/gv-oembed-poc/embed-child.html\" width=\"480\" height=\"270\" frameborder=\"0\" allowfullscreen></iframe>"
+}

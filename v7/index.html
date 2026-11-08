@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>GVS1 numeric-field interpolation test</title>
+  <meta name="description" content="Tests whether an embed consumer interpolates oEmbed width/height into a style attribute without validating them as numbers. Authorized bug bounty research against an owned test page.">
+  <meta property="og:title" content="GVS1 numeric-field interpolation test">
+  <meta property="og:type" content="video">
+  <link rel="alternate" type="application/json+oembed"
+        href="https://hiyokosauna37.github.io/gv-oembed-poc/v7/oembed.json"
+        title="GVS1 numeric-field interpolation test">
+</head>
+<body>
+  <h1>GVS1</h1>
+  <p>The oEmbed <code>width</code> and <code>height</code> are declared as strings rather than
+     integers, each carrying an inert marker:</p>
+  <ul>
+    <li><code>height</code> &rarr; <code>270; GVS1MARK: 1</code> — a CSS-only marker
+        (<code>GVS1MARK</code> is not a real CSS property, so a browser ignores it).
+        Answers: does the value reach a <code>style</code> attribute unvalidated?</li>
+    <li><code>width</code> &rarr; <code>480"&gt;&lt;b&gt;GVW1B&lt;/b&gt;</code> — an inert
+        attribute break-out probe using only <code>&lt;b&gt;</code>.</li>
+  </ul>
+  <p>No script, no event handler, no outbound request.</p>
+</body>
+</html>
