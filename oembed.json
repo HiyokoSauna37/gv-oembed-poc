@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "type": "rich",
+  "type": "video",
   "provider_name": "gv-poc",
   "provider_url": "https://hiyokosauna37.github.io/gv-oembed-poc/",
   "title": "GVOE1",
