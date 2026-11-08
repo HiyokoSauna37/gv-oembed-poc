@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "type": "rich",
+  "provider_name": "gv-poc",
+  "provider_url": "https://hiyokosauna37.github.io/gv-oembed-poc/",
+  "title": "GVOE1",
+  "width": 440,
+  "height": 240,
+  "html": "<div data-gvmark=\"GVOE1\">GVOE1 inert marker</div>"
+}
