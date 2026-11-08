@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>GVT1 field-by-field wrapper test</title>
+  <meta name="description" content="Per-field inert marker test for oEmbed metadata reaching the embed wrapper. Authorized bug bounty research against an owned test page.">
+  <meta property="og:title" content="GVT1 field-by-field wrapper test">
+  <meta property="og:type" content="video">
+  <link rel="alternate" type="application/json+oembed"
+        href="https://hiyokosauna37.github.io/gv-oembed-poc/v6/oembed.json"
+        title="GVT1 field-by-field wrapper test">
+</head>
+<body>
+  <h1>GVT1</h1>
+  <p>Per-field inert marker test. Each oEmbed metadata field carries its own
+     <code>&lt;b&gt;</code>-only marker so a read-back can say which field, if any,
+     reaches the consumer's embed wrapper unencoded.</p>
+  <ul>
+    <li>title &rarr; GVT1B</li>
+    <li>provider_url &rarr; GVP1B (also tests an attribute break-out)</li>
+    <li>author_name &rarr; GVA1B</li>
+    <li>author_url &rarr; GVD1B</li>
+    <li>url &rarr; GVU1B</li>
+    <li>thumbnail_url &rarr; GVH1B</li>
+  </ul>
+  <p>Markers are inert: no script, no event handler, no outbound request.</p>
+</body>
+</html>
