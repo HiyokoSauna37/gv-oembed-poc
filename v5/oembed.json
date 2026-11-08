@@ -1,0 +1,12 @@
+{
+  "version": "1.0",
+  "type": "video",
+  "title": "GVOE6 wrapper test",
+  "provider_name": "gv-poc",
+  "provider_url": "https://hiyokosauna37.github.io/gv-oembed-poc/",
+  "author_name": "GVOE6",
+  "author_url": "https://hiyokosauna37.github.io/gv-oembed-poc/v5/",
+  "width": 480,
+  "height": 120,
+  "html": "<iframe src=\"https://hiyokosauna37.github.io/gv-oembed-poc/embed-child.html\" width=\"480\" height=\"120\" frameborder=\"0\" allowfullscreen data-gvmark=\"GVOE6\"></iframe>"
+}
