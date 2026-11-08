@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "type": "rich",
+  "provider_name": "gv-poc",
+  "provider_url": "https://hiyokosauna37.github.io/gv-oembed-poc/",
+  "title": "GVOE2",
+  "width": 440,
+  "height": 60,
+  "html": "GVOE2PLAIN text-preserving control no markup"
+}
